@@ -66,15 +66,7 @@
 
 /* responsive */
 @media screen and (max-width: 430px) {
-    .nav__menu,
-    .nav__cart,
-    .nav__search {
-        display: none;
-    }
 
-    .navbar {
-        padding-top: 40px !important;
-    }
     .footer {
         justify-content: center;
         flex-wrap: wrap;

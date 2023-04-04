@@ -152,16 +152,6 @@ body {
 /* responsive Iphone 14 promax */
 @media screen and (max-width: 430px) {
 
-    .nav__menu,
-    .nav__cart,
-    .nav__search {
-        display: none;
-    }
-
-    .navbar {
-        padding-top: 40px !important;
-    }
-
     .wrapper {
         display: flex;
         flex-direction: column-reverse;

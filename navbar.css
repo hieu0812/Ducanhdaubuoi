@@ -74,3 +74,28 @@
     background-color: aquamarine;
     transition: all 0.3s ease-out;
 }
+
+@media screen and (max-width: 430px) {
+    .nav__cart,
+    .nav__search {
+        display: none;
+    }
+    .nav__menu {
+        width: 100%;
+        margin-top: 60px;
+    }
+    .nav__menu ul{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+    .nav__menu ul li{
+        margin: 0 !important;
+    }
+    .navbar {
+        padding-top: 40px !important;
+    }
+
+}

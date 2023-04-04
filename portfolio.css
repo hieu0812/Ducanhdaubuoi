@@ -64,16 +64,7 @@
 /* responsive Iphone14 Promax  */
 @media screen and (max-width: 430px) {
 
-    .nav__menu,
-    .nav__cart,
-    .nav__search {
-        display: none;
-    }
-
-    .navbar {
-        padding-top: 40px !important;
-    }
-
+    
     .pr {
         display: none;
     }
